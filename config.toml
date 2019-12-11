@@ -1,0 +1,95 @@
+baseURL = "https://tefter.github.io/"
+languageCode = "en-us"
+title = "Tefter guides and documentation"
+theme = "dot-hugo-documentation-theme"
+
+[params]
+# logo is for all page
+logo = "https://tefter.io/tefter.svg"
+# logo white is for homepage logo, you can use colorful logo too...
+logoWhite = "https://tefter.io/tefter.svg"
+# when logo is empty, it will shown your site title
+
+# customize color
+#primaryColor = "#02007e"
+primaryColor = "#5fbec9"
+secondaryColor = "#f9f9f9"
+textColor = "#636363"
+textColorDark = "#242738"
+whiteColor = "#ffffff"
+
+############################## social links ##############################
+[[params.social]]
+icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
+link = "https://twitter.com/_tefterio"
+
+  [Languages.en]
+  languageName = "En"
+  languageCode = "en-us"
+  weight = 1
+  home = "Home"
+  copyright = "copyright © [tefter](https://tefter.io) 2019+"
+
+    # navigation
+    [Languages.en.menu]
+
+      [[Languages.en.menu.main]]
+        weight = 2
+        name = "Faq"
+        url = "faq"
+
+      [[Languages.en.menu.main]]
+        weight = 3
+        name = "contact"
+        url = "contact"
+
+      # Dropdown menu
+      [[Languages.en.menu.main]]
+        weight = 4
+        name = "pages"
+        url = "pages"
+        hasChildren = true
+
+          [[Languages.en.menu.main]]
+          parent = "pages"
+          name = "Features"
+          url = "features"
+          weight = 1
+
+          [[Languages.en.menu.main]]
+          parent = "pages"
+          name = "Getting Started"
+          url = "getting-started"
+          weight = 2
+
+          [[Languages.en.menu.main]]
+          parent = "pages"
+          name = "Billing and Pricing"
+          url = "billing-pricing"
+          weight = 3
+
+
+
+            # banner
+    [Languages.en.params.banner]
+      title = "Support Center & Knowledge base"
+      description = "Find advice and answers from our support team fast or get in touch"
+      image = "images/banner.jpg"
+      placeholder = "Have a question? Just ask here or enter terms"
+
+    # Topics
+    [Languages.en.params.topics]
+      title = "Find your answer by subject"
+
+    # call to action
+    [Languages.en.params.cta]
+      enable = true
+      title = "Didn't find an answer to your question?"
+      description = "Please get in touch with us and we'll do our best to help you"
+      btnText = "contact us"
+      btnURL = "contact"
+
+    # contact
+    [Languages.en.params.contact]
+      title = "Got Any Questions"
+      content = "Submit the form and confirm your email address at <a class='text-primary' href='https://formspree.io/'>Formspree</a> Then add the following lines to contact page YAML Front Matter."
