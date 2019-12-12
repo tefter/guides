@@ -1,4 +1,4 @@
-baseURL = "https://tefter.github.io/"
+baseURL = "https://guides.tefter.io/"
 languageCode = "en-us"
 title = "Tefter guides and documentation"
 theme = "dot-hugo-documentation-theme"
