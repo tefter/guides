@@ -8,4 +8,8 @@ topic: true
 weight: 1
 ---
 
-WIP
+{{< rawhtml >}}
+  <img class="inpage-hero" src="/images/under_construction.svg"/>
+{{< /rawhtml >}}
+
+Under construction, please come back later..

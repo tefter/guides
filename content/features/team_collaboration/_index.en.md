@@ -7,17 +7,35 @@ type: "pages"
 weight: 10
 ---
 
+{{< rawhtml >}}
+  <img class="inpage-hero" src="/images/team_collaboration.svg"/>
+{{< /rawhtml >}}
+
+Tefter enables team collaboration through its Slack application.
+Click the button below to install it on your workspace.
+
+{{< rawhtml >}}
+<a class="btn btn-primary" href="https://tefter.io/integrations/slack_direct_install_callback">Install</a>
+{{< /rawhtml >}}
+
+### Available Commands
+
+After installing the Slack app, you may either use `/tefter <command>` or its shorter
+equivalent `/t <command>`.
+
+Begin with `/t help` to list some of the ways you can interact with it.
+
 #### Login
 
 Any Slack workspace member who wishes to create or modify content of
 Tefter for the organization has to log in first. By logging in a Slack
 member account is connected to a Tefter one.
 
-Use `/tefter login` to connect your accounts.
+Use `/t login` to connect your accounts.
 
 **Adding bookmarks**
 
-You can use the `/tefter <url>` command or a Slack
+You can use the `/t <url>` command or a Slack
 message action to add a bookmark.
 
 {{< rawhtml >}}
@@ -44,7 +62,7 @@ message action to add a bookmark.
 
 #### Searching
 
-You can use the `/tefter search <query>` command or mention the
+You can use the `/t search <query>` command or mention the
 `@tefter` bot to search.
 
 An example using the mention might be:
@@ -52,7 +70,7 @@ An example using the mention might be:
 `Yo @tefter search functional programming`
 
 💡 There's a short version of the search command. It's just `s`.  
-Example: `/tefter s agile`
+Example: `/t s agile`
 
 {{< rawhtml >}}
 <details>
@@ -89,26 +107,26 @@ Keep in mind that @tefter has to be invited to that channel first.
 
 #### Creating an alias
 
-`/tefter alias <alias> <url_pattern>`
+`/t alias <alias> <url_pattern>`
 
 
 Example:
 
-`/tefter alias api-docs https://tefter.io/docs/api`
+`/t alias api-docs https://tefter.io/docs/api`
 
 or with a dynamic alias
 
-`/tefter alias deb-tracker https://tracker.debian.org/pkg/{{*}}`
+`/t alias deb-tracker https://tracker.debian.org/pkg/{{*}}`
 
 Read more about aliases in the section below.
 
 #### Resolving an alias
 
-`/tefter <alias_pattern>`
+`/t <alias_pattern>`
 
 Example:
 
-`/tefter deb-tracker/nginx`
+`/t deb-tracker/nginx`
 
 or by mentioning `@tefter`
 
@@ -116,7 +134,7 @@ or by mentioning `@tefter`
 
 #### Listing all aliases
 
-`/tefter aliases`
+`/t aliases`
 
 or by mentioning `@tefter`
 
@@ -124,9 +142,8 @@ or by mentioning `@tefter`
 
 #### Listing the most popular bookmarks
 
-`/tefter news`
+`/t news`
 
 Our ranking algorithm factors in recency, likes and views.
 
 ![tefter-news-command](https://i.imgur.com/XmrFUhs.png)
-
