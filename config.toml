@@ -42,7 +42,7 @@ link = "https://twitter.com/_tefterio"
       [[Languages.en.menu.main]]
         weight = 3
         name = "contact"
-        url = "contact"
+        url = "mailto:support@tefter.io"
 
       # Dropdown menu
       [[Languages.en.menu.main]]
@@ -69,6 +69,11 @@ link = "https://twitter.com/_tefterio"
           url = "billing-pricing"
           weight = 3
 
+          [[Languages.en.menu.main]]
+          parent = "pages"
+          name = "API Docs"
+          url = "https://www.tefter.io/docs/api"
+          weight = 4
 
 
             # banner
@@ -88,7 +93,7 @@ link = "https://twitter.com/_tefterio"
       title = "Didn't find an answer to your question?"
       description = "Please get in touch with us and we'll do our best to help you"
       btnText = "contact us"
-      btnURL = "mailto:support@tefter.io"
+      btnURL = "contact"
 
     # contact
     [Languages.en.params.contact]

@@ -4,7 +4,10 @@ date: 2019-12-12T11:02:05+06:00
 type: "post"
 ---
 
-### Search
+{{< rawhtml >}}
+  <img class="inpage-hero" src="/images/search_comic.svg"/>
+  <br/>
+{{< /rawhtml >}}
 
 We index the contents of the pages you bookmark, but also calculate interesting metadata like word count, reading time, author and topics for articles.
 
