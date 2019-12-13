@@ -17,6 +17,7 @@ secondaryColor = "#f9f9f9"
 textColor = "#636363"
 textColorDark = "#242738"
 whiteColor = "#ffffff"
+isMultilingual = false
 
 ############################## social links ##############################
 [[params.social]]
@@ -54,13 +55,13 @@ link = "https://twitter.com/_tefterio"
           parent = "pages"
           name = "Features"
           url = "features"
-          weight = 1
+          weight = 2
 
           [[Languages.en.menu.main]]
           parent = "pages"
           name = "Getting Started"
           url = "getting-started"
-          weight = 2
+          weight = 1
 
           [[Languages.en.menu.main]]
           parent = "pages"
