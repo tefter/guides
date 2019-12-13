@@ -88,7 +88,7 @@ link = "https://twitter.com/_tefterio"
       title = "Didn't find an answer to your question?"
       description = "Please get in touch with us and we'll do our best to help you"
       btnText = "contact us"
-      btnURL = "contact"
+      btnURL = "mailto:support@tefter.io"
 
     # contact
     [Languages.en.params.contact]
