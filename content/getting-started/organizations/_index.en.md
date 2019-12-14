@@ -59,7 +59,7 @@ From your Slack workspace, call:
 To add your first bookmark. Any member of the workspace may then call:
 
 ```
-/t search tefter`
+/t search tefter
 ```
 
 to retrieve that bookmark.
