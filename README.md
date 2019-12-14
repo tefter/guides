@@ -1,4 +1,4 @@
-This is the source of https://guides.tefter.io built with [hugo][https://gohugo.io/].
+This is the source of https://guides.tefter.io built with [hugo](https://gohugo.io/).
 
 ## Development
 
