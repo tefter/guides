@@ -64,6 +64,11 @@ Tefter to Home Screen".
   <img class="inpage-hero" src="/images/getting_started/install_mobile_app.jpg"/>
 {{< /rawhtml >}}
 
+Having the mobile app installed, you can quickly bookmark links by
+sharing them to Tefter.
+
+![share-to-tefter](https://camo.githubusercontent.com/a7f21829ef914236c9120923ce91630778f5c2da/68747470733a2f2f692e696d6775722e636f6d2f7948726d4d71452e6a70673f31)
+
 [team-setup]: {{< relref "../organizations/_index.en.md" >}}
 [pocket]: https://app.getpocket.com/
 [pinboard]: https://pinboard.in/
