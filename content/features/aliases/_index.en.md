@@ -18,6 +18,8 @@ Aliases can either be private for a user or they can be global for an organizati
 
 ![list-aliases](https://i.imgur.com/aZvW1QV.png)
 
+### Creating an Alias
+
 You can use the {web, mobile, desktop} UI to create a new alias, or you
 can use the Slack integration.
 
@@ -41,13 +43,15 @@ This is currently only available in Chrome.
 
 ![aliases-extension](https://i.imgur.com/oxoYBtu.gif)
 
-### Search bar
+### Resolving an Alias
+
+#### Search bar
 
 You may also navigate using aliases from the search bar.
 
 ![search-bar-demo](https://i.imgur.com/oGRZVSI.gif)
 
-### Command-Line Usage
+#### Command-Line Usage
 
 We're working on command-line application you can use to interact with Tefter.
 Until it's released you can use a simple shell function like the following to navigate using aliases.

@@ -18,6 +18,8 @@ Click the button below to install it on your workspace.
 <a class="btn btn-primary" href="https://tefter.io/integrations/slack_direct_install_callback">Install</a>
 {{< /rawhtml >}}
 
+After installing, read [here][org-setup] to set up your organization.
+
 ### Available Commands
 
 After installing the Slack app, you may either use `/tefter <command>` or its shorter
@@ -147,3 +149,5 @@ or by mentioning `@tefter`
 Our ranking algorithm factors in recency, likes and views.
 
 ![tefter-news-command](https://i.imgur.com/XmrFUhs.png)
+
+[org-setup]: {{< relref "../../getting-started/organizations/_index.en.md" >}}

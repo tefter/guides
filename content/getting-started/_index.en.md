@@ -9,7 +9,21 @@ weight: 1
 ---
 
 {{< rawhtml >}}
-  <img class="inpage-hero" src="/images/under_construction.svg"/>
+  <img class="inpage-hero" src="/images/getting_started.svg"/>
 {{< /rawhtml >}}
 
-Under construction, please come back later..
+{{< rawhtml >}}
+  <br/>
+{{< /rawhtml >}}
+
+Thanks for deciding to start using Tefter for your bookmarking needs.
+
+Pick one of the following flows:
+
+{{< rawhtml >}}
+  <a class="btn btn-primary" href="{{< relref "getting-started/organizations/_index.en.md" >}}">Team</a>
+{{< /rawhtml >}}
+
+{{< rawhtml >}}
+<a class="btn btn-primary" href="{{< relref "getting-started/personal/_index.en.md" >}}">Personal</a>
+{{< /rawhtml >}}
