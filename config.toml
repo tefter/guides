@@ -37,7 +37,7 @@ link = "https://twitter.com/_tefterio"
       [[Languages.en.menu.main]]
         weight = 2
         name = "Faq"
-        url = "faq"
+        url = "/faq"
 
       [[Languages.en.menu.main]]
         weight = 3
@@ -54,19 +54,19 @@ link = "https://twitter.com/_tefterio"
           [[Languages.en.menu.main]]
           parent = "pages"
           name = "Features"
-          url = "features"
+          url = "/features"
           weight = 2
 
           [[Languages.en.menu.main]]
           parent = "pages"
           name = "Getting Started"
-          url = "getting-started"
+          url = "/getting-started"
           weight = 1
 
           [[Languages.en.menu.main]]
           parent = "pages"
           name = "Billing and Pricing"
-          url = "billing-pricing"
+          url = "/billing-pricing"
           weight = 3
 
           [[Languages.en.menu.main]]
@@ -74,7 +74,6 @@ link = "https://twitter.com/_tefterio"
           name = "API Docs"
           url = "https://www.tefter.io/docs/api"
           weight = 4
-
 
             # banner
     [Languages.en.params.banner]
