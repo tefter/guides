@@ -75,6 +75,12 @@ link = "https://twitter.com/_tefterio"
           url = "https://www.tefter.io/docs/api"
           weight = 4
 
+          [[Languages.en.menu.main]]
+          parent = "pages"
+          name = "Community"
+          url = "https://spectrum.chat/tefter"
+          weight = 5
+
             # banner
     [Languages.en.params.banner]
       title = "Support Center & Knowledge base"
