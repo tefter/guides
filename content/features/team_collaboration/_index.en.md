@@ -4,7 +4,7 @@ date: 2019-12-12T11:02:05+06:00
 icon: "ti-package"
 description: "Features enabling team collaboration"
 type: "pages"
-weight: 10
+weight: 3
 ---
 
 {{< rawhtml >}}
