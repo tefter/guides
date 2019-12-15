@@ -4,6 +4,11 @@ date: 2019-12-12T11:02:05+06:00
 type: "post"
 ---
 
+{{< rawhtml >}}
+  <img class="inpage-hero" src="/images/cleanup.svg"/>
+  <br/>
+{{< /rawhtml >}}
+
 We regularly check when your bookmarked pages are still available and you can filter and delete dead ones.
 
 **Filter by dead links**

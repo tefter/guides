@@ -37,7 +37,7 @@ link = "https://twitter.com/_tefterio"
       [[Languages.en.menu.main]]
         weight = 2
         name = "Faq"
-        url = "/faq"
+        url = "https://tefter.io/faq"
 
       [[Languages.en.menu.main]]
         weight = 3
