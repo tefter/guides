@@ -6,6 +6,7 @@ type: "post"
 
 {{< rawhtml >}}
   <img class="inpage-hero" src="/images/public_api.svg"/>
+  <br/>
 {{< /rawhtml >}}
 
 We have a public API you can use to build apps or automate any part of your bookmarking experience.
