@@ -37,6 +37,10 @@ We process all payments securely through [Stripe](https://stripe.com).
 
 #### Billing Day
 
+The billing day is the same as the day you start your subscription.
+
+Example:
+
 If you subscribe to a monthly plan on September 7th, you are billed on the 7th of every month after that.
 
 #### Refunds
