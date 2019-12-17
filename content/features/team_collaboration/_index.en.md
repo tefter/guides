@@ -29,16 +29,19 @@ Begin with `/t help` to list some of the ways you can interact with it.
 
 #### Login
 
-Any Slack workspace member who wishes to create or modify content of
-Tefter for the organization has to log in first. By logging in a Slack
+Any Slack workspace member who wishes to create or modify content on
+Tefter for the organization, has to log in first. By logging in a Slack
 member account is connected to a Tefter one.
 
 Use `/t login` to connect your accounts.
 
-**Adding bookmarks**
+#### Adding bookmarks
 
-You can use the `/t <url>` command or a Slack
-message action to add a bookmark.
+You can use the call the root tefter command or a Slack message action to add a bookmark.
+
+```
+/t <url>
+```
 
 {{< rawhtml >}}
 <details>
@@ -71,7 +74,7 @@ An example using the mention might be:
 
 `Yo @tefter search functional programming`
 
-💡 There's a short version of the search command. It's just `s`.  
+:bulb: There's a short version of the search command. It's just `s`.  
 Example: `/t s agile`
 
 {{< rawhtml >}}
@@ -83,7 +86,13 @@ Example: `/t s agile`
   <img src="https://i.imgur.com/4wqaTL4.gif" alt="slack integration search command">
 </details>
 
-<br/>
+{{< /rawhtml >}}
+
+You may also browse the bookmarks of an organization you're member of
+from the web or the apps by using a filter.
+
+{{< rawhtml >}}
+  <img src="/images/org_filter.png" alt="org filter">
 {{< /rawhtml >}}
 
 #### Sharing search results with others
@@ -102,49 +111,65 @@ the channel, you can select "share".
   <img src="https://i.imgur.com/rVmMTVj.png" alt="slack integration share action response">
 </details>
 
-<br/>
 {{< /rawhtml >}}
 
-Keep in mind that @tefter has to be invited to that channel first.
+:warning: Keep in mind that `@tefter` has to be invited to that channel first.
 
 #### Creating an alias
 
-`/t alias <alias> <url_pattern>`
-
+```
+/t alias <alias> <url_pattern>
+```
 
 Example:
 
-`/t alias api-docs https://tefter.io/docs/api`
+```
+/t alias api-docs https://tefter.io/docs/api
+```
 
 or with a dynamic alias
 
-`/t alias deb-tracker https://tracker.debian.org/pkg/{{*}}`
+```
+/t alias deb-tracker https://tracker.debian.org/pkg/{{*}}
+```
 
 Read more about aliases in the section below.
 
 #### Resolving an alias
 
-`/t <alias_pattern>`
+```
+/t <alias_pattern>
+```
 
 Example:
 
-`/t deb-tracker/nginx`
+```
+/t deb-tracker/nginx
+```
 
 or by mentioning `@tefter`
 
-`@tefter deb-tracker/nginx`
+```
+@tefter deb-tracker/nginx
+```
 
 #### Listing all aliases
 
-`/t aliases`
+```
+/t aliases
+```
 
 or by mentioning `@tefter`
 
-`@tefter aliases`
+```
+@tefter aliases
+```
 
 #### Listing the most popular bookmarks
 
-`/t news`
+```
+/t news
+```
 
 Our ranking algorithm factors in recency, likes and views.
 

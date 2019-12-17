@@ -3,6 +3,13 @@ languageCode = "en-us"
 title = "Tefter guides and documentation"
 theme = "dot-hugo-documentation-theme"
 
+enableEmoji = true
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 4
+    startLevel = 1
+
 [params]
 # logo is for all page
 logo = "https://tefter.io/tefter.svg"
