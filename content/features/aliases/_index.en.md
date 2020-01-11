@@ -18,6 +18,18 @@ Aliases can either be private for a user or they can be global for an organizati
 
 ![list-aliases](https://i.imgur.com/aZvW1QV.png)
 
+#### Alias Examples
+
+Some ideas for links you might be interested to create aliases for:
+
+* An onboarding guide
+* A link for a zoom / hangouts recurring meeting or standup
+* Links for Jira tickets or boards. `go/API/1337` to `https://somebusiness.atlassian.net/browse/API-1337`
+* Exception tracking
+* Monitoring
+* Dashboards
+* HR software
+
 ### Creating an Alias
 
 You can use the {web, mobile, desktop} UI to create a new alias, or you

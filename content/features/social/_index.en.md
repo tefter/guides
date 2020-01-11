@@ -24,6 +24,17 @@ Share interesting stuff and collect karma points.
 
 ![karma-points](https://i.imgur.com/KnLjjso.png)
 
+Actions rewarding karma points:
+
+* Someone subscribes to one of your lists
+* A user adds one of your bookmarks
+* A user likes one of your bookmarks
+* You import bookmarks
+* You install a browser extension
+* You follow a user or feed
+* Add add an avatar
+* You add your first bookmark
+
 **List Subscriptions**
 
 You may also subscribe to lists and be notified when bookmarks are
