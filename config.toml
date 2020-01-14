@@ -29,7 +29,7 @@ isMultilingual = false
 ############################## social links ##############################
 [[params.social]]
 icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
-link = "https://twitter.com/_tefterio"
+link = "https://twitter.com/Tefter_io"
 
   [Languages.en]
   languageName = "En"
