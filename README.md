@@ -5,6 +5,7 @@ This is the source of https://guides.tefter.io built with [hugo](https://gohugo.
 1. Make changes
 2. Build with the `hugo` command
 3. Copy files from `public/` to the location where you've cloned [tefter/tefter.github.io](https://github.com/tefter/tefter.github.io)
+  `cp -R public/* ../tefter.github.io`
 4. `cd ../tefter.github.io`
 5. `git add .`
 6. `git commit`
