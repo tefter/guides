@@ -35,6 +35,8 @@ member account is connected to a Tefter one.
 
 Use `/t login` to connect your accounts.
 
+Admins and members of the organization can send invites, see how [here][org-invites].
+
 #### Adding bookmarks
 
 You can use the call the root tefter command or a Slack message action to add a bookmark.
@@ -175,4 +177,47 @@ Our ranking algorithm factors in recency, likes and views.
 
 ![tefter-news-command](https://i.imgur.com/XmrFUhs.png)
 
+## Lists
+
+You can create lists and all the organization's members will be able to
+add / remove bookmarks to them.
+
+{{< rawhtml >}}
+  <img src="/images/org_lists.png"/>
+{{< /rawhtml >}}
+
+Members may also subscribe to lists and get notified every time a bookmark is added.
+
+## Web Interface
+
+You can manage and add content to your organizations from the web and mobile interfaces.
+
+### Switching Workspaces
+
+When you are a member of at least one org, you can switch between your
+personal context and that of a workspace by clicking your avatar in
+the top right corner.
+
+{{< rawhtml >}}
+  <img src="/images/org_switch.png"/>
+{{< /rawhtml >}}
+
+<br/>
+<br/>
+<br/>
+
+The currently active workspace is always visible on the left sidebar.
+
+<br/>
+<br/>
+<br/>
+
+
+{{< rawhtml >}}
+  <img src="/images/current_org_context.png"/>
+{{< /rawhtml >}}
+
+You can click it for options to manage the organization.
+
 [org-setup]: {{< relref "../../getting-started/organizations/_index.en.md" >}}
+[org-invites]: {{< relref "../../getting-started/organizations/_index.en.md#inviting-members" >}}

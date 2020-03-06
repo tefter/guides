@@ -13,7 +13,8 @@ type: "post"
 
 To create an organization you have to connect Tefter to your Slack workspace.
 Then the members of your workspace can use Tefter for bookmarking and aliases.
-You can about the organization features [here][org-features].
+
+You can read about the organization features [here][org-features].
 
 ### Installing the Slack Application
 
@@ -56,7 +57,9 @@ From your Slack workspace, call:
 /t https://tefter.io
 ```
 
-To add your first bookmark. Any member of the workspace may then call:
+To add your first bookmark.
+
+Any member of the workspace may then call:
 
 ```
 /t search tefter
@@ -68,13 +71,30 @@ to retrieve that bookmark.
 ### Inviting Members
 
 While every member of the workspace can read content added to the organization, not everyone can add or edit.
-Any member who wishes to do that, must call:
+Any member who wishes to do that, must call the following command on Slack:
 
 ```
 /t login
 ```
 
+To quickly invite users to your organization, first click on the icon of
+the organization in the sidebar, then select "invitations".
+
+{{< rawhtml >}}
+  <img src="/images/getting_started/org_invites_path.png"/>
+{{< /rawhtml >}}
+
+In the invitations page, select any users you wish to invite from the
+dropdown and click "invite".
+
+{{< rawhtml >}}
+  <img src="/images/getting_started/org_invites.png"/>
+{{< /rawhtml >}}
+
+
 ### Managing the Organization
+
+#### Transferring Ownership
 
 The person who installs the app becomes the admin of the Tefter organization.
 From within your org, you can make any other member the admin as show in
@@ -82,4 +102,13 @@ the image below:
 
 {{< rawhtml >}}
   <img src="/images/transfer_admin.png"/>
+{{< /rawhtml >}}
+
+
+#### Removing Members
+
+Click on the bin icon on a member to remove them from the org.
+
+{{< rawhtml >}}
+  <img src="/images/getting_started/remove_member.png"/>
 {{< /rawhtml >}}
