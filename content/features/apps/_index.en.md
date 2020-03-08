@@ -47,3 +47,15 @@ Or you can search straight from the address bar, by typing `t` followed by the `
 * [Chrome / Brave](https://chrome.google.com/webstore/detail/tefter/eldofalegbgagpenjjcapjaogpioldoh)
 * [Firefox](https://addons.mozilla.org/en-US/firefox/addon/tefter/)
 * [Bookmarklet](https://tefter.io/faq#bookmarklet)
+
+### Command-Line
+
+![demo-cli](/images/cli_logo.png)
+
+There's a command-line app for MacOS and Linux.
+
+![demo-cli](/images/cli_demo.png)
+
+**Download**
+
+https://github.com/tefter/cli/releases
