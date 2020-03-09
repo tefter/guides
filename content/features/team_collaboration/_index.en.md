@@ -221,3 +221,12 @@ You can click it for options to manage the organization.
 
 [org-setup]: {{< relref "../../getting-started/organizations/_index.en.md" >}}
 [org-invites]: {{< relref "../../getting-started/organizations/_index.en.md#inviting-members" >}}
+
+### Adding Bookmarks
+
+You may assign an existing or a new bookmark to an organization you're
+member of, by selecting from the dropdown as in the image below.
+
+{{< rawhtml >}}
+  <img src="/images/add_bookmark_org.png"/>
+{{< /rawhtml >}}
