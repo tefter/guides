@@ -56,6 +56,12 @@ There's a command-line app for MacOS and Linux.
 
 ![demo-cli](/images/cli_demo.png)
 
-**Download**
+Install via brew
 
+```shell
+brew tap tefter/homebrew-cli
+brew install tefter
+```
+
+You may alternatively download the pre-built packages yourself from:
 https://github.com/tefter/cli/releases
