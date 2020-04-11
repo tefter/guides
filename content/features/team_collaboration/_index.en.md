@@ -230,3 +230,28 @@ member of, by selecting from the dropdown as in the image below.
 {{< rawhtml >}}
   <img src="/images/add_bookmark_org.png"/>
 {{< /rawhtml >}}
+
+## Public Organizations
+
+Organizations are private by default, which means that nobody except members of the org, can
+see any of its content.
+
+However if you want to, you can make you organization public. By making
+the organization public, you can expose lists to the public and Tefter
+users may even subscribe to such lists.
+
+To make your organization public, first go to your org and select
+"Privacy Settings".
+
+{{< rawhtml >}}
+  <img src="/images/public_orgs_link.png"/>
+{{< /rawhtml >}}
+
+Then select the checkbox to make it public and click "Save Changes".
+
+{{< rawhtml >}}
+  <img src="/images/public_orgs_form.png"/>
+{{< /rawhtml >}}
+
+
+That's it!
