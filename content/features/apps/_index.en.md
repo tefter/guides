@@ -8,6 +8,17 @@ type: "post"
   <img class="inpage-hero" src="/images/apps.svg"/>
 {{< /rawhtml >}}
 
+## Getting Started
+
+The most convenient way to install an app on your current device is to
+navigate to this [page](https://tefter.io/install_app) and click "install".
+
+For video instructions, watch the following:
+
+{{< rawhtml >}}
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Nib9TPTgc-Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{< /rawhtml >}}
+
 ### Desktop
 
 ![desktop-app](https://i.imgur.com/TggU5w2.png)
