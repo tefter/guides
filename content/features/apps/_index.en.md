@@ -38,23 +38,66 @@ For iOS devices, watch this [instructional video](https://www.youtube.com/watch?
 
 ### Browser Extensions
 
-**Add bookmark**
-
-You can quickly add bookmarks clicking on the Tefter extension icon.
-
-![chrome-extension](https://i.imgur.com/rRhI3xe.png)
-
-**Search**
-
-Or you can search straight from the address bar, by typing `t` followed by the `tab` key.
-
-![chrome-omnibar](https://i.imgur.com/O29gxoR.gif)
-
 **Install**
 
 * [Chrome / Brave](https://chrome.google.com/webstore/detail/tefter/eldofalegbgagpenjjcapjaogpioldoh)
 * [Firefox](https://addons.mozilla.org/en-US/firefox/addon/tefter/)
 * [Bookmarklet](https://tefter.io/faq#bookmarklet)
+
+---
+
+With the extension you can:
+
+* Add / Edit bookmarks
+* Search your history
+* Search your open tabs
+* Search your bookmarks
+* Navigate to [aliases][aliases]
+
+#### New Tab
+
+The extension changes your default new tab page to be like the following.
+
+![extension-menu](/images/newtab.png)
+
+Depending on the browser, you may have to press `tab` to focus the search input.
+You may type to search and press `enter` to navigate to the selected link. To select a search result
+use either the arrow keys, `ctrl + j / k (vim-like)` or the mouse.
+
+To disable Tefter as your new tab on Chrome:
+
+1. Navigate to [chrome://settings/onStartup](chrome://settings/onStartup)
+1. Then click the "Disable" button in the "On start-up" section
+1. Finally, re-enable the extension from [chrome://extensions](chrome://extensions/)
+
+On Firefox:
+
+1. Navigate to [about:preferences#home](about:preferences#home)
+1. Click "Disable Extension"
+1. Re-install the extension from [https://addons.mozilla.org/en-GB/firefox/addon/tefter/](https://addons.mozilla.org/en-GB/firefox/addon/tefter/)
+
+#### Add bookmark
+
+You can quickly add bookmarks clicking on the Tefter icon.
+
+![extension-menu](/images/extension_menu.png)
+
+#### Search
+
+To search history, open tabs and bookmarks hit `alt + k` or `option + k` on MacOS.
+The shortcut is configurable on Chrome, see: [chrome://extensions/shotcuts](chrome://extensions/shotcuts).
+
+Alternatively you can search straight from the address bar, by typing `t` followed by the `tab` key (Chrome) 
+or `t` followed by the `space` key (Firefox).
+
+![chrome-omnibar](/images/omnibar.gif)
+
+#### Aliases
+
+Aliases are shortcuts to links you commonly use, read more about them [here][aliases].
+With the extension installed, you may navigate to an alias, let's say
+you got an alias `maps` pointing to `https://maps.google.com`. Then all
+you need to do is type `go/maps` in the address bar and hit enter.
 
 ### Command-Line
 
@@ -73,3 +116,6 @@ brew install tefter
 
 You may alternatively download the pre-built packages yourself from:
 https://github.com/tefter/cli/releases
+
+
+[aliases]: {{< relref "../../features/aliases/_index.en.md" >}}
