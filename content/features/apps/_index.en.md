@@ -92,6 +92,29 @@ or `t` followed by the `space` key (Firefox).
 
 ![chrome-omnibar](/images/omnibar.gif)
 
+#### Permissions
+
+The extension asks for the following permissions:
+
+**Tabs**
+
+It requires access to your open tabs, so that you can navigate to any of them and make them searchable.
+
+**ContextMenus**
+
+You can right-click on any link to add a bookmark.
+
+**History**
+
+It analyzes your history, ranks it and makes it searchable. All the data
+manipulation stays on your machine. The extension never sends any of
+your data to a remote server.
+
+**Intercept Requests**
+
+To navigate to aliases (see section below). It only intercepts
+navigation to URLs starting with `go/`.
+
 #### Aliases
 
 Aliases are shortcuts to links you commonly use, read more about them [here][aliases].
