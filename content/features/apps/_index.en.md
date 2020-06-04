@@ -64,17 +64,15 @@ Depending on the browser, you may have to press `tab` to focus the search input.
 You may type to search and press `enter` to navigate to the selected link. To select a search result
 use either the arrow keys, `ctrl + j / k (vim-like)` or the mouse.
 
-To disable Tefter as your new tab on Chrome:
+To disable Tefter as your new tab, click the settings link at the bottom
+of the page. Then deselect the "Enable new tab page" option and click save.
 
-1. Navigate to [chrome://settings/onStartup](chrome://settings/onStartup)
-1. Then click the "Disable" button in the "On start-up" section
-1. Finally, re-enable the extension from [chrome://extensions](chrome://extensions/)
+![extension-menu](/images/newtab_settings.png)
 
-On Firefox:
-
-1. Navigate to [about:preferences#home](about:preferences#home)
-1. Click "Disable Extension"
-1. Re-install the extension from [https://addons.mozilla.org/en-GB/firefox/addon/tefter/](https://addons.mozilla.org/en-GB/firefox/addon/tefter/)
+If you can't find the settings link, you either click
+[here](chrome-extension://bpaaeloknanjdlmhbobaeiapbgillkge/content/options.html) for
+Chrome and
+[here](moz-extension://e5de1692-8064-b046-ad4d-94f03e21cc02/content/options.html) for Firefox.
 
 #### Add bookmark
 
