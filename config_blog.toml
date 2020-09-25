@@ -30,6 +30,7 @@ isMultilingual = false
 [[params.social]]
 icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
 link = "https://twitter.com/Tefter_io"
+name = "Twitter"
 
   [Languages.en]
   languageName = "En"
