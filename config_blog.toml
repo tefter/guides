@@ -1,0 +1,51 @@
+baseURL = "https://guides.tefter.io/blog"
+languageCode = "en-us"
+title = "Tefter.io Blog"
+theme = "cactus"
+
+enableEmoji = true
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 4
+    startLevel = 1
+
+[params]
+# logo is for all page
+logo = "https://tefter.io/tefter.svg"
+# logo white is for homepage logo, you can use colorful logo too...
+logoWhite = "https://tefter.io/tefter.svg"
+# when logo is empty, it will shown your site title
+
+# customize color
+#primaryColor = "#02007e"
+primaryColor = "#5fbec9"
+secondaryColor = "#f9f9f9"
+textColor = "#636363"
+textColorDark = "#242738"
+whiteColor = "#ffffff"
+isMultilingual = false
+
+############################## social links ##############################
+[[params.social]]
+icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
+link = "https://twitter.com/Tefter_io"
+
+  [Languages.en]
+  languageName = "En"
+  languageCode = "en-us"
+  weight = 1
+  home = "Home"
+  copyright = "copyright © [tefter](https://tefter.io) 2019+"
+
+    # navigation
+    [Languages.en.menu]
+      [[Languages.en.menu.main]]
+        weight = 3
+        name = "contact"
+        url = "mailto:support@tefter.io"
+
+    # contact
+    [Languages.en.params.contact]
+      title = "Got Any Questions"
+      content = "Submit the form and confirm your email address at <a class='text-primary' href='https://formspree.io/'>Formspree</a> Then add the following lines to contact page YAML Front Matter."
