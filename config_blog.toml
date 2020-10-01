@@ -2,6 +2,7 @@ baseURL = "https://guides.tefter.io/blog"
 languageCode = "en-us"
 title = "Tefter.io Blog"
 theme = "cactus"
+contentDir = 'content/blog'
 
 enableEmoji = true
 
