@@ -14,7 +14,7 @@ Registering an `api-docs` to `https://verylongnameapplication.com/api-docs` allo
 type `go/api-docs` in your browser's address bar to navigate there.
 Think of it as a https://www.golinks.io/ alternative.
 
-Aliases can either be private for a user or they can be global for an organization.
+Aliases can either be private for a user or they can be global for a team.
 
 ![list-aliases](https://i.imgur.com/aZvW1QV.png)
 

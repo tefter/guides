@@ -18,7 +18,7 @@ Click the button below to install it on your workspace.
 <a class="btn btn-primary" href="https://tefter.io/integrations/slack_direct_install_callback">Install</a>
 {{< /rawhtml >}}
 
-After installing, read [here][org-setup] to set up your organization.
+After installing, read [here][org-setup] to set up your team.
 
 ### Available Commands
 
@@ -30,12 +30,12 @@ Begin with `/t help` to list some of the ways you can interact with it.
 #### Login
 
 Any Slack workspace member who wishes to create or modify content on
-Tefter for the organization, has to log in first. By logging in a Slack
+Tefter for the team, has to log in first. By logging in a Slack
 member account is connected to a Tefter one.
 
 Use `/t login` to connect your accounts.
 
-Admins and members of the organization can send invites, see how [here][org-invites].
+Admins and members of the team can send invites, see how [here][org-invites].
 
 #### Adding bookmarks
 
@@ -90,7 +90,7 @@ Example: `/t s agile`
 
 {{< /rawhtml >}}
 
-You may also browse the bookmarks of an organization you're member of
+You may also browse the bookmarks of an team you're member of
 from the web or the apps by using a filter.
 
 {{< rawhtml >}}
@@ -179,7 +179,7 @@ Our ranking algorithm factors in recency, likes and views.
 
 ## Lists
 
-You can create lists and all the organization's members will be able to
+You can create lists and all the team's members will be able to
 add / remove bookmarks to them.
 
 {{< rawhtml >}}
@@ -190,7 +190,7 @@ Members may also subscribe to lists and get notified every time a bookmark is ad
 
 ## Web Interface
 
-You can manage and add content to your organizations from the web and mobile interfaces.
+You can manage and add content to your teams from the web and mobile interfaces.
 
 ### Switching Workspaces
 
@@ -217,30 +217,30 @@ The currently active workspace is always visible on the left sidebar.
   <img src="/images/current_org_context.png"/>
 {{< /rawhtml >}}
 
-You can click it for options to manage the organization.
+You can click it for options to manage the team.
 
 [org-setup]: {{< relref "../../getting-started/organizations/_index.en.md" >}}
 [org-invites]: {{< relref "../../getting-started/organizations/_index.en.md#inviting-members" >}}
 
 ### Adding Bookmarks
 
-You may assign an existing or a new bookmark to an organization you're
+You may assign an existing or a new bookmark to an team you're
 member of, by selecting from the dropdown as in the image below.
 
 {{< rawhtml >}}
   <img src="/images/add_bookmark_org.png"/>
 {{< /rawhtml >}}
 
-## Public Organizations
+## Public Teams
 
-Organizations are private by default, which means that nobody except members of the org, can
+Teams are private by default, which means that nobody except members of the team, can
 see any of its content.
 
-However if you want to, you can make you organization public. By making
-the organization public, you can expose lists to the public and Tefter
+However if you want to, you can make you team public. By making
+the team public, you can expose lists to the public and Tefter
 users may even subscribe to such lists.
 
-To make your organization public, first go to your org and select
+To make your team public, first go to your org and select
 "Privacy Settings".
 
 {{< rawhtml >}}
